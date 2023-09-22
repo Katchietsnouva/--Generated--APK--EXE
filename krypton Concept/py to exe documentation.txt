@@ -1,0 +1,23 @@
+
+
+pip install wheel
+
+pip install --user pyinstaller
+
+cd C:\Users\katchietsnouvaniccur\Documents\Python_Projects\Krypton_concept_interface\test\manual_integration_tests
+
+
+
+Failed --> C:\Python311\Scripts\pyinstaller.exe --onefile krypton_concept_UI_v2.py
+
+Failed --> "C:\Python311\Scripts\pyinstaller.exe" --onefile krypton_concept_UI_v2.py
+
+Successful--> python -m PyInstaller --onefile krypton_concept_UI_v2.py
+
+
+pip install --user cx_Freeze
+
+cd C:\Users\katchietsnouvaniccur\Documents\Python_Projects\Krypton_concept_interface\test\manual_integration_tests
+
+
+Successful--> cxfreeze krypton_concept_UI_v2.py --target-dir dist
